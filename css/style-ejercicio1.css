@@ -1,0 +1,100 @@
+/*!Estilos ejercicio NO MODIFICAR*/
+#ejercicio1 .parte1,
+#ejercicio1 .parte3 {
+    background-color: #4997d0;
+}
+
+/*****/
+#ejercicio2 .parte1,
+#ejercicio2 .parte2 {
+    background-color: #138707;
+}
+
+#ejercicio2 .parte3,
+#ejercicio2 .parte4 {
+    background-color: #ff9a33;
+}
+
+#ejercicio2 .parte5,
+#ejercicio2 .parte6 {
+    background-color: white;
+}
+
+/*****/
+#ejercicio3 .parte1,
+#ejercicio3 .parte6 {
+    background-color:
+        #002654;
+}
+
+#ejercicio3 .parte2,
+#ejercicio3 .parte4,
+#ejercicio3 .parte7 {
+    background-color: white;
+}
+
+#ejercicio3 .parte3,
+#ejercicio3 .parte5 {
+    background-color:
+        #ce1126;
+}
+
+/*****/
+#ejercicio4 .parte1,
+#ejercicio4 .parte3,
+#ejercicio4 .parte5,
+#ejercicio4 .parte7 {
+    background-color: #006aa8;
+}
+
+#ejercicio4 .parte2,
+#ejercicio4 .parte4,
+#ejercicio4 .parte6 {
+    background-color: #fecd00;
+}
+
+/*****/
+#ejercicio5 .contenedor {
+    background-color: #ed1d26;
+}
+
+#ejercicio5 .parte1,
+#ejercicio5 .parte3,
+#ejercicio5 .parte2 {
+    background-color: white;
+}
+/*--------------------------*/
+/**Colocar a partir de aca sus estilos*/
+
+
+#ejercicio1 .contenedor {
+    width: 25%;
+}
+
+#ejercicio1 .parte1,
+#ejercicio1 .parte3 {
+    background-color: #4997d0;
+    width: 33.33%;
+}
+
+#ejercicio1 .parte2 {
+    display: flex;
+    width: 33.33%;
+}
+
+#ejercicio1 .parte2 img {
+    width: 80%;
+    margin: auto;
+}
+
+/*---------------------------------*/
+/*Coloque sus estilos para formar la bandera de Guatemala*/
+#ejercicio1 .contenedor {
+    display: inline-flex;
+    height: 30vh;
+}
+
+#ejercicio1 .parte3 {
+    order: 1;
+}
+

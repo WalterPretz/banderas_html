@@ -1,0 +1,264 @@
+/*Estilos ejercicio 1 NO MODIFICAR*/
+#ejercicio1 .contenedor {
+    width: 25%;
+}
+
+#ejercicio1 .parte1,
+#ejercicio1 .parte3 {
+    background-color: #4997d0;
+    width: 33.33%;
+}
+
+#ejercicio1 .parte2 {
+    display: flex;
+    width: 33.33%;
+}
+
+#ejercicio1 .parte2 img {
+    width: 80%;
+    margin: auto;
+}
+
+/*---------------------------------*/
+/*Coloque sus estilos para formar la bandera de Guatemala*/
+#ejercicio1 .contenedor {
+    display: inline-flex;
+    height: 30vh;
+}
+
+#ejercicio1 .parte3 {
+    order: 3;
+}
+
+
+/*Ejercicio 2*/
+#ejercicio2 .contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50vh;
+}
+
+#ejercicio2 .parte3,
+#ejercicio2 .parte4 {
+    background-color: #ff9a33;
+    height: 33.33%;
+}
+
+#ejercicio2 .parte1,
+#ejercicio2 .parte2 {
+    background-color: #138707;
+    height: 33.33%;
+}
+
+#ejercicio2 .parte5,
+#ejercicio2 .parte6 {
+    background-color: white;
+    height: 33.33%;
+}
+
+#ejercicio2 .parte5 {
+    display: flex;
+    justify-content: center;
+}
+
+#ejercicio2 .parte5 img {
+    width: 20%;
+}
+
+#ejercicio2 .parte6 {
+    display: flex;
+    justify-content: center;
+}
+
+#ejercicio2 .parte6 img {
+    width: 20%;
+}
+
+#ejercicio2 .parte1 {
+    order: 3;
+}
+
+#ejercicio2 .parte2 {
+    order: 7;
+}
+
+#ejercicio2 .parte3 {
+    order: 1;
+}
+
+#ejercicio2 .parte4 {
+    order: 5;
+}
+
+#ejercicio2 .parte5 {
+    order: 2;
+}
+
+#ejercicio2 .parte6 {
+    order: 6;
+}
+#ejercicio2 .parte7{
+    order:4;
+    height: 5%;
+}
+
+/*Ejercicio 3*/
+#ejercicio3 .contenedor {
+    display: flex;
+    width: 25%;
+    height: 20vh;
+    overflow: hidden;
+}
+
+#ejercicio3 #bajos {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+#ejercicio3 .francia {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+}
+
+#ejercicio3 .parte7 {
+    width: 2%;
+    background-color: white;
+}
+
+#ejercicio3 .parte1,
+#ejercicio3 .parte6 {
+    background-color:
+        #002654;
+}
+
+#ejercicio3 .parte2,
+#ejercicio3 .parte4 {
+    background-color:
+        white;
+}
+
+#ejercicio3 .parte3,
+#ejercicio3 .parte5 {
+    background-color:
+        #ce1126;
+}
+
+#ejercicio3 .parte1,
+#ejercicio3 .parte2,
+#ejercicio3 .parte3 {
+    height: 33.33%;
+    width: 33vh;
+}
+
+#ejercicio3 .parte4,
+#ejercicio3 .parte5,
+#ejercicio3 .parte6 {
+    width: 33.33%;
+}
+
+#ejercicio3 .parte4 {
+    order: 2
+}
+
+#ejercicio3 .parte5 {
+    order: 3
+}
+
+#ejercicio3 .parte6 {
+    order: 1
+}
+
+#ejercicio3 #bajos {
+    order: 1;
+}
+
+#ejercicio3 .francia {
+    order: 3;
+}
+
+#ejercicio3 .parte7 {
+    order: 2;
+}
+
+/*Ejercicio 4*/
+#ejercicio4 .contenedor {
+    display: flex;
+    width: 25%;
+    height: 30vh;
+    background-color: #fecd00;
+    flex-direction: column;
+}
+#ejercicio4 #superior{
+    display: flex;
+    background-color: red;
+    height: 45%;
+}
+#ejercicio4 #inferior{
+    display: flex;
+    background-color: red;
+    height: 45%;
+}
+
+#ejercicio4 .parte1 {
+    background-color: #006aa8;
+    width: 30%;
+    
+}
+
+#ejercicio4 .parte2 {
+    background-color: #fecd00;
+    width: 5%;
+    
+}
+#ejercicio4 .parte3 {
+    background-color: #006aa8;
+    width: 65%;
+}
+
+#ejercicio4 .parte4 {
+    background-color: #fecd00;
+    height: 10%;
+}
+
+#ejercicio4 .parte5 {
+    background-color: #006aa8;
+    width: 30%;
+    
+}
+
+#ejercicio4 .parte6 {
+    background-color: #fecd00;
+    width: 5%;
+    
+}
+#ejercicio4 .parte7 {
+    background-color: #006aa8;
+    width: 65%;
+}
+
+/*Ejercicio 5*/
+#ejercicio5 .contenedor{
+    display: flex;
+    width: 25%;
+    height: 33vh;
+    background-color: #ed1d26;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ejercicio5 .parte1, #ejercicio5 .parte3{
+    background-color: white;
+    width: 10%;
+    height: 20%;
+}
+
+#ejercicio5 .parte2{
+    background-color: white;
+    width: 40%;
+    height: 15%;
+}
+
