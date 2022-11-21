@@ -6,71 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto banderas</title>
+    <meta name="description" content="Ejercicio de Bandera">
+    <meta name="author" content="Walter Jeremías Pretzantzín Xuruc">
     <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
+    <script src="/js/script.js"></script>
 </head>
 <body>
     <main>
         <h1>Trabajando con banderas</h1>
-        <article id="ejercicio1">
-            <h2>Ejercicio 1: Guatemala</h2>
-            <div class="contenedor">
-                <div class="parte1"></div>
-                <div class="parte3"></div>
-                <div class="parte2"><img src="img/guatemala.png" alt="Escudo Guatemala"></div>
-            </div>
-        </article>
-        <article id="ejercicio2">
-            <h2>Ejercicio 2: Níger, India</h2>
-            <div class="contenedor">
-                <div class="parte1"></div>
-                <div class="parte2"></div>
-                <div class="parte3"></div>
-                <div class="parte4"></div>
-                <div class="parte5"><img src="img/niger.png" alt="Emblema Níger"></div>
-                <div class="parte6"><img src="img/india.png" alt="Emblema India"></div>
-                <div class="parte7"></div>
-            </div>
-        </article>
-        <article id="ejercicio3">
-            <h2>Ejercicio 3: Paises Bajos, Francia</h2>
-            <div class="contenedor">
-                <div id="bajos">
+        <h2>Walter Jeremías Pretzantzín Xuruc</h2>
+        <div id="linea"></div>
+        <section>
+            <fieldset>
+                <legend>Bandera</legend>
+                <label for="seleccionar">Seleccione la bandera a visualizar</label>
+                <select id="selecBandera" onchange="banderaSeleciconada()">
+                    <option value="0" selected disabled>Seleccionar</option>
+                    <option value="1">Guatemala</option>
+                    <option value="2">India</option>
+                    <option value="3">Paises Bajos</option>
+                    <option value="4">Suecia</option>
+                    <option value="5">Suiza</option>
+                </select>
+            </fieldset>
+        </section>
+        <div id="cajaResultado">
+            <article id="ejercicio1">
+                <h2>Guatemala</h2>
+                <div class="contenedor">
                     <div class="parte1"></div>
-                    <div class="parte2"></div>
                     <div class="parte3"></div>
+                    <div class="parte2"><img src="img/guatemala.png" alt="Escudo Guatemala"></div>
                 </div>
-                <div class="francia">
-                    <div class="parte4"></div>
-                    <div class="parte5"></div>
-                    <div class="parte6"></div>
+            </article>
+            <article id="ejercicio2">
+                <h2>Níger, India</h2>
+                <div class="centarCaja">
+                    <div class="contenedor">
+                        <div class="parte1"></div>
+                        <div class="parte2"></div>
+                        <div class="parte3"></div>
+                        <div class="parte4"></div>
+                        <div class="parte5"><img src="img/niger.png" alt="Emblema Níger"></div>
+                        <div class="parte6"><img src="img/india.png" alt="Emblema India"></div>
+                        <div class="parte7"></div>
+                    </div>
                 </div>
-                <div class="parte7"></div>
-            </div>
-        </article>
-        <article id="ejercicio4">
-            <h2>Ejercicio 4: Suecia</h2>
-            <div class="contenedor">
-                <div id="superior">
-                    <div class="parte1"></div>
-                    <div class="parte2"></div>
-                    <div class="parte3"></div>
+            </article>
+            <article id="ejercicio3">
+                <h2>Paises Bajos, Francia</h2>
+                <div class="centarCaja">
+                    <div class="contenedor">
+                        <div id="bajos">
+                            <div class="parte1"></div>
+                            <div class="parte2"></div>
+                            <div class="parte3"></div>
+                        </div>
+                        <div class="francia">
+                            <div class="parte4"></div>
+                            <div class="parte5"></div>
+                            <div class="parte6"></div>
+                        </div>
+                        <div class="parte7"></div>
+                    </div>
                 </div>
-                <div class="parte4"></div>
-                <div id="inferior">
-                    <div class="parte5"></div>
-                    <div class="parte6"></div>
-                    <div class="parte7"></div>
+            </article>
+            <article id="ejercicio4">
+                <h2>Suecia</h2>
+                <div class="centarCaja">
+                    <div class="contenedor">
+                        <div id="superior">
+                            <div class="parte1"></div>
+                            <div class="parte2"></div>
+                            <div class="parte3"></div>
+                        </div>
+                        <div class="parte4"></div>
+                        <div id="inferior">
+                            <div class="parte5"></div>
+                            <div class="parte6"></div>
+                            <div class="parte7"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </article>
-        <article id="ejercicio5">
-            <h2>Ejercicio 5: Suiza</h2>
-            <div class="contenedor">
-                <div class="parte1"></div>
-                <div class="parte2"></div>
-                <div class="parte3"></div>
-            </div>
-        </article>
+            </article>
+            <article id="ejercicio5">
+                <h2>Suiza</h2>
+                <div class="centarCaja">
+                    <div class="contenedor">
+                        <div class="parte1"></div>
+                        <div class="parte2"></div>
+                        <div class="parte3"></div>
+                    </div>
+                </div>    
+            </article>
+        </div>
     </main>
 </body>
 </html>
