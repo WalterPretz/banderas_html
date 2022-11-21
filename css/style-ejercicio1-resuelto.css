@@ -277,6 +277,7 @@ main{
     background-color: #ffffff;
     padding: 0.5em 2em;
     border-radius: 1em;
+    box-shadow: 5px 5px 8px 5px rgb(189, 189, 189);
 }
 
 @media screen and (max-width: 600px) {
